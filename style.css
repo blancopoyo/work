@@ -27,6 +27,15 @@ img {
     height: 100px;
     width: 100px;
 }
+
+.huge {font-size: 10rem;
+    color:#6fd649
+
+}
+
+
+
+
 .popup {
     width: 300px;
     background: #fff;
@@ -74,9 +83,20 @@ top:50%;
     box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 }
 
-.box {
-    width: 200px;
-    height: 200px;
+.nationality{
+    width:100px;
+    margin-top: 30px;
+}
+
+#title{
+    margin-left: 100px;
+    
+}
+
+/* #box {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
     background-color: black;
     text-align: center;
     justify-content: center;
@@ -84,10 +104,10 @@ top:50%;
     padding: 40px 0;
     position:absolute;
     left: 50%;
-    opacity:0.5;
-}
+    opacity:0.5; */
+/* } */
 
-.box1 {
+/* .box1 {
     width: 200px;
     height: 200px;
     background-color: black;
@@ -98,4 +118,4 @@ top:50%;
     position:absolute;
     left: 50%;
     /* opacity:0.5; */
-}
+/* } */ 

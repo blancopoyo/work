@@ -11,9 +11,12 @@
   <div class = "container">
     <button type="submit" class=" btn" onclick="openPopup()">Submit</button>
 
-    <div class="box">Hello This Is Nigerian Dedicated Form Field</div>
+    <!-- <div id="box">Hello This Is Nigerian Dedicated Form Field</div> -->
+    <h3 id="title">Nigeria My Country</h3>
+
     
-    <div class="popup" id="popup">
+    
+    <div class="popup" id ="popup">
         <img src="tick.png">
         <h2>Thank You!</h2>
         <p>Registration is Succesfull.</p>
@@ -21,18 +24,21 @@
     </div>
 </div> 
 
+
+
 <h2>
 <form action="">
 <input type="password" placeholder="Enter your password">
-
 </form>
-
 </h2>
  
-<div class="box1">This Is Nigerian Dedicated Form Field</div>
+<div class="box1">Citizens only</div>
+
+<button class="nationality"  onclick="myfunction()">Nationality</button>
 
 
 <script>
+    
 var popup = document.getElementById("popup");
 
 function openPopup(){
@@ -40,6 +46,10 @@ popup.classList.add("open-popup");
 }
 function closePopup(){
 popup.classList.remove("open-popup");
+}
+
+function myfunction() {
+    setTimeout(function(){ alert("Nigerian"); }, 1000);
 }
 
 </script>
